@@ -19,13 +19,13 @@ jobs:
     runs-on: github_dev
     steps:
       - name: docker image build
-      - run: echo "building docker image"
+        run: echo "building docker image"
 
   artifcat: 
     runs-on: github_dev
     steps:
       - name: Push docker image
-      - run: echo "pushing docker image"
+        run: echo "pushing docker image"
 
   deploy:
     runs-on: github_dev
