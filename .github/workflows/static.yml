@@ -19,7 +19,7 @@ jobs:
     runs-on: github_dev
     steps:
       - name: docker image build
-        run: sudo docker build -t myimage .
+        run: ls -lha && pwd && sudo docker build -t myimage .
 
   test: 
     runs-on: github_dev
